@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+<style>
+
+    
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(0, 255, 255, 0.198);
+        margin: 0px;
+        
+    }
+    header{
+        text-align: center;
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 6px;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.401); 
+    }
+
+    nav {
+        background-color: rgba(0, 255, 255, 0.47);
+        padding: 3px;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.401);
+        
+        
+        
+    }
+    nav > a {
+        text-decoration: none ;
+        color:rgba(0, 0, 0, 0.657);
+        font-weight: bold;
+        margin-right: 20px;
+        
+
+    }
+
+    nav > a:hover{
+        text-decoration: underline
+    }
+
+    main{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 6px;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.401);
+    }
+
+    article{
+       background-color: lightcyan;
+       padding: 5px; 
+    }
+    article > aside {
+        background-color: lightgray;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.401);
+        border-radius: 3%;
+        
+    }
+
+    footer{
+        background-color: rgba(0, 0, 0, 0.587);
+        color: white;
+        text-align: center;
+        padding: 4px;
+        margin: 0px;
+    }
+
+    footer > p {
+        margin: 0px;
+    }
+    div#bola{
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: black;
+        border-radius: 50%;
+    }
+    
+</style>
+
+
+
+</head>
+<body>
+
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odio perferendis quasi iure labore non aperiam, distinctio magni. Id architecto voluptatibus quasi? Illum deserunt error ducimus, impedit aliquid optio nisi.</p>
+                <aside>
+                    <p>Artigo escrito por Fulano de Tal</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo CursoEmVídeo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
